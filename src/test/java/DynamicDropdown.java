@@ -21,7 +21,6 @@ ChromeDriver driver = new ChromeDriver(options);
 		driver.findElement(By.id("APjFqb")).sendKeys("testing");
 		List <WebElement> allSuggestions= driver.findElements(By.cssSelector("ul[role='listbox'] li"));
 		for(WebElement option:allSuggestions) {
-			;
 			System.out.println(option.getText());
 		}
 	}
