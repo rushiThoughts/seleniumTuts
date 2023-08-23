@@ -45,5 +45,6 @@ public class DateParsingDemo {
 			 title = driver.findElement(By.cssSelector(".ui-datepicker-title")).getText();
 		}
 		driver.close();
+		driver.close();
 	}
 }
